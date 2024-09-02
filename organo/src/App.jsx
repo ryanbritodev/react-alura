@@ -1,5 +1,6 @@
 import Banner from './components/Banner';
-import CampoTexto from './components/CampoTexto/CampoTexto';
+import Formulario from './components/Formulario';
+
 // Import emite o tipo de arquivo
 // É possível alterar o nome dos arquivos para um diferente do componente para assim realizar só uma chamada nos imports
 // Exemplo: CampoTexto.jsx ---> index.jsx
@@ -13,8 +14,7 @@ function App() {
   return (
     <div className="App">
       <Banner/>
-      <CampoTexto label="Nome"/>
-      <CampoTexto label="Cargo"/>
+      <Formulario/>
     </div>
   );
 }
